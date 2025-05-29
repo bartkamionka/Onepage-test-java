@@ -1,52 +1,167 @@
-body {
-  font-family: Arial, sans-serif;
+/* Reset */
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* Body */
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* HEADER & MENU */
 header {
   background: #222;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
 }
 
 nav ul {
-  list-style: none;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  align-items: center;
+  padding: 1.2rem 0;
+  gap: 2rem;
+  list-style: none;
 }
 
 nav ul li a {
-  color: white;
+  color: #f9f9f9;
   text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+nav ul li a:hover,
+nav ul li a.active {
+  color: #fff;
+  background: #1db954;
 }
 
+/* HERO (OFERTA) */
 .hero {
-  padding: 60px 20px;
+  background: linear-gradient(105deg, #1db954 0%, #40e0d0 100%);
+  color: #fff;
+  padding: 60px 30px 50px 30px;
   text-align: center;
-  background: #f4f4f4;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.07);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
 }
 
 button {
-  background: #007bff;
-  color: white;
-  padding: 12px 20px;
+  background: #fff;
+  color: #1db954;
   border: none;
-  font-size: 16px;
+  padding: 14px 36px;
+  font-size: 1.1rem;
+  border-radius: 50px;
   cursor: pointer;
-  border-radius: 5px;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.11);
+  transition: background 0.2s, color 0.2s, transform 0.1s;
+}
+button:hover {
+  background: #1db954;
+  color: #fff;
+  transform: scale(1.04);
 }
 
+/* SEKCJE */
 section {
-  padding: 40px 20px;
+  background: #fff;
+  margin: 40px auto 0 auto;
+  max-width: 750px;
+  border-radius: 22px;
+  padding: 38px 24px 32px 24px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.11);
 }
 
+section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 14px;
+  color: #1db954;
+  font-weight: 600;
+}
+section p {
+  font-size: 1.09rem;
+}
+
+/* OPINIE */
+#opinie p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+/* KONTAKT */
+#kontakt a {
+  color: #1db954;
+  text-decoration: underline;
+  word-break: break-all;
+}
+
+/* STOPKA */
 footer {
+  width: 100%;
+  margin-top: 50px;
+  background: #222;
+  color: #eee;
+  padding: 22px 0 15px 0;
   text-align: center;
-  background: #eee;
-  padding: 10px;
-  font-size: 14px;
+  font-size: 1rem;
+  border-radius: 18px 18px 0 0;
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.04);
+  letter-spacing: 0.03em;
+}
+footer a {
+  color: #1db954;
+  text-decoration: none;
+  margin: 0 6px;
+  transition: color 0.2s;
+  font-weight: 500;
+}
+footer a:hover {
+  color: #fff;
 }
 
+/* RESPONSYWNOŚĆ */
+@media (max-width: 900px) {
+  section {
+    max-width: 95vw;
+    padding: 26px 8vw 20px 8vw;
+  }
+}
+@media (max-width: 600px) {
+  nav ul {
+    gap: 1rem;
+    font-size: 1rem;
+    padding: 0.9rem 0;
+  }
+  .hero h1 {
+    font-size: 1.3rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  section {
+    padding: 18px 2vw 14px 2vw;
+  }
+}
