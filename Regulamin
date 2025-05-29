@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Regulamin – LongboardStart.pl</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { background:#fff; margin:0; color:#222; font-family:inherit; }
+    .regulamin-container { max-width:760px;margin:40px auto 40px auto;padding:38px 16px 32px 16px;background:#fafafa;border-radius:18px;box-shadow:0 2px 16px rgba(0,0,0,0.07);}
+    h1 { color:#1db954; margin-bottom:24px; }
+    h2 { margin-top:32px; color:#222; }
+    ul { margin-left:16px; }
+    a { color: #1db954; }
+    @media(max-width:600px){.regulamin-container{padding:18px 2vw 10px 2vw;}}
+  </style>
+</head>
+<body>
+  <div class="regulamin-container">
+    <h1>Regulamin serwisu LongboardStart.pl</h1>
+    <p>Obowiązuje od 29.05.2025 r.</p>
+
+    <h2>1. Postanowienia ogólne</h2>
+    <ul>
+      <li>Serwis internetowy LongboardStart.pl prowadzony jest przez Bartłomieja Kamionkę.</li>
+      <li>Niniejszy regulamin określa zasady korzystania z serwisu oraz warunki zakupu i pobierania eBooka.</li>
+    </ul>
+
+    <h2>2. Definicje</h2>
+    <ul>
+      <li><b>Sprzedawca</b> – właściciel serwisu LongboardStart.pl.</li>
+      <li><b>Kupujący</b> – osoba fizyczna lub prawna dokonująca zakupu eBooka.</li>
+      <li><b>eBook</b> – publikacja cyfrowa oferowana przez Sprzedawcę do pobrania.</li>
+    </ul>
+
+    <h2>3. Warunki korzystania z serwisu</h2>
+    <ul>
+      <li>Korzystanie z serwisu jest dobrowolne i bezpłatne.</li>
+      <li>Aby zakupić eBooka, należy podać prawidłowy adres e-mail oraz uiścić opłatę zgodną z cennikiem.</li>
+    </ul>
+
+    <h2>4. Proces zakupu eBooka</h2>
+    <ul>
+      <li>Zamówienie eBooka odbywa się poprzez odpowiedni formularz na stronie lub kontakt mailowy.</li>
+      <li>Po potwierdzeniu płatności Kupujący otrzyma link do pobrania eBooka na podany adres e-mail.</li>
+    </ul>
+
+    <h2>5. Reklamacje i odstąpienie</h2>
+    <ul>
+      <li>Kupujący ma prawo zgłosić reklamację w terminie 14 dni od daty zakupu.</li>
+      <li>Reklamacje należy zgłaszać na adres: <a href="mailto:kontakt@longboardstart.pl">kontakt@longboardstart.pl</a></li>
+      <li>Ze względu na cyfrowy charakter produktu prawo do odstąpienia od umowy nie przysługuje po pobraniu eBooka.</li>
+    </ul>
+
+    <h2>6. Odpowiedzialność</h2>
+    <ul>
+      <li>Sprzedawca nie ponosi odpowiedzialności za nieprawidłowe wykorzystanie eBooka przez Kupującego.</li>
+      <li>Wszelkie treści zawarte w eBooku mają charakter edukacyjny i nie stanowią porady specjalistycznej.</li>
+    </ul>
+
+    <h2>7. Prawa autorskie</h2>
+    <ul>
+      <li>Wszelkie prawa do eBooka przysługują Sprzedawcy.</li>
+      <li>Zabrania się kopiowania, rozpowszechniania lub udostępniania eBooka osobom trzecim bez zgody Sprzedawcy.</li>
+    </ul>
+
+    <h2>8. Postanowienia końcowe</h2>
+    <ul>
+      <li>Regulamin może zostać zmieniony w każdym czasie; nowa wersja będzie publikowana na stronie.</li>
+      <li>W sprawach nieuregulowanych niniejszym regulaminem mają zastosowanie przepisy prawa polskiego.</li>
+    </ul>
+    <p style="margin-top:40px"><a href="index.html">Powrót do strony głównej</a></p>
+  </div>
+</body>
+</html>
